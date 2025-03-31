@@ -1,10 +1,12 @@
 import './App.css';
 import LandingPage from './Components/LandingPage';
+import ProductPage from './Components/ProductPage';
 
 function App() {
   return (
     <div className="App">
       <LandingPage/>
+      <ProductPage/>
 
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
