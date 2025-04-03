@@ -2,7 +2,7 @@ import React from "react";
 import MenuBar from "./MenuBar";
 import styled from "styled-components";
 
- const StyledH1= styled.h1`
+ const StyledHeader= styled.h1`
  display:inline-block;
  text-align:left;
  `;
@@ -10,7 +10,7 @@ import styled from "styled-components";
 export default function Header(){
     return(
         <>
-            <StyledH1>e-commerce</StyledH1>
+            <StyledHeader>e-commerce</StyledHeader>
             <MenuBar/>
         </>
     )

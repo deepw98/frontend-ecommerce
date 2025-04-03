@@ -4,7 +4,7 @@ import StarComponent from "./StarComponent";
 
 const StyledDiv = styled.div`
     display:grid;
-    justify-content:space-between;
+    justify-content:space-around;
     grid-template-columns:repeat(4,1fr);
     @media(max-width:768px){
         grid-template-columns:repeat(2,1fr);
@@ -14,6 +14,7 @@ const StyledDiv = styled.div`
         grid-template-columns:1fr;
         align-items:center;
         justify-content:center;
+        margin-left:2rem;
     }
     `;
 const StyledSection = styled.section`
