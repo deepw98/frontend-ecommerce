@@ -1,6 +1,7 @@
 import './App.css';
 import LandingPage from './Components/LandingPage';
 // import ProductPage from './Components/ProductPage';
+import AppRoutes from './AppRoutes';
 
 function App() {
   return (

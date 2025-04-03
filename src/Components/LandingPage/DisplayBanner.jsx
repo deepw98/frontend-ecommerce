@@ -13,7 +13,11 @@ const StyledDiv = styled.div`
         flex-direction:column;
     }
     h1,h2,h3{
-        margin-bottom:8rem;
+        margin-bottom:7rem;
+    }
+    img{
+        height:500px;
+        width:400px;
     }
 `;
 
@@ -26,7 +30,7 @@ export default function DisplayBanner(){
                 <h3>The offers stands for monday only.</h3>
             </div>
             
-            <img src="/pexels-junior-teixeira-1064069-2047905.jpg" alt="30% off chairs" width={'400px'} />
+            <img src="/pexels-junior-teixeira-1064069-2047905.jpg" alt="30% off chairs"/>
         </StyledDiv>
     )
 }

@@ -4,7 +4,8 @@ import StarComponent from "./StarComponent";
 
 const StyledDiv = styled.div`
     display:grid;
-    justify-content:space-around;
+    justify-content:space-between;
+    justify-items:center;
     grid-template-columns:repeat(4,1fr);
     @media(max-width:768px){
         grid-template-columns:repeat(2,1fr);
@@ -55,7 +56,6 @@ export default function ProductItem(){
 
     return(
         <>
-            <h1>Popular Products</h1>
             <StyledDiv>
                 {allproducts.map((product) => {
                         return(
