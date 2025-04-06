@@ -10,7 +10,7 @@ export default function OrderPage(){
         <div>
              <Header/>
              <InfoComponent productId={productId}/>
-             <Footer position='relative'/>
+             <Footer/>
         </div>
        
     )

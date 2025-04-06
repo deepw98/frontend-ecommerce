@@ -79,12 +79,6 @@ export default function ProductItem(props){
     if (loading) return <p>Loading...</p>;
     if (error) return <p>Error: {error}</p>;
 
-    // function TotalPrice(product){
-    //         let total = product.price - (product.price*product.discountPercentage/100)
-    //         total = total * 85.53
-    //         return total
-    //     }
-    
         const handleLoadMore = () => {
             setSkip((prevSkip) => {
                 console.log(prevSkip)
