@@ -7,24 +7,19 @@ display:flex;
 justify-content:space-around;
 font-size:1.5rem;
 `
-const StyledAnchor = styled.a`
+const StyledLink = styled(Link)`
 text-decoration:none;
 color:rgb(100,100,100)
 `
 export default function MenuBar(){
    
     return(
-        // <StyledUl>
-        //     <StyledAnchor href="#">Home</StyledAnchor>
-        //     <StyledAnchor href="#">Products</StyledAnchor>
-        //     <StyledAnchor href="#">Contact Us</StyledAnchor>
-        //     <StyledAnchor href="#">About Us</StyledAnchor>
-        // </StyledUl>
-
-        <nav>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/contact">Contact</Link>
-        </nav>
+        <StyledNav>
+        <StyledLink to="/">Home</StyledLink>
+        <StyledLink to='/products'>Products</StyledLink>
+        <StyledLink to="/about">About</StyledLink>
+        <StyledLink to="/contact">Contact</StyledLink>
+       
+        </StyledNav>
     )
 }

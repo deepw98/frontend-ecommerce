@@ -17,7 +17,7 @@ const StyledDiv = styled.div`
     }
     img{
         height:500px;
-        width:400px;
+        width:350px;
     }
 `;
 

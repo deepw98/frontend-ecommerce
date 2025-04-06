@@ -1,12 +1,12 @@
 import './App.css';
-import LandingPage from './Components/LandingPage';
-// import ProductPage from './Components/ProductPage';
+
 import AppRoutes from './AppRoutes';
 
 function App() {
   return (
     <div className="App">
-      <LandingPage/>
+      {/* <LandingPage/> */}
+      <AppRoutes/>
       {/* <ProductPage/> */}
 
       {/* <header className="App-header">
