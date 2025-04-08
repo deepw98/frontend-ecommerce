@@ -13,11 +13,11 @@ const StyledDiv = styled.div`
         grid-template-columns:repeat(2,1fr);
         justify-content:space-between;
     }
-    @media(max-width:500px){
+    @media(max-width:600px){
         grid-template-columns:1fr;
-        align-items:center;
-        justify-content:center;
-        margin-left:2rem;
+        align-items:start;
+        justify-items:start;
+        margin-left:0.2rem;
     }
     `;
 const StyledSection = styled.section`
